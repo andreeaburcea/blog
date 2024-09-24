@@ -8,7 +8,7 @@ url_endpoint = 'https://api.npoint.io/099f622924ab6663ad56'
 response = requests.get(url=url_endpoint)
 all_posts = response.json()
 
-MY_EMAIL = 'burcealexandrandreea@gmail.com'
+MY_EMAIL = ''
 MY_PASSWORD = ''
 
 @app.route('/')
